@@ -1,0 +1,29 @@
+{
+  "name": "campuzzbackend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "connect-flash": "^0.1.1",
+    "connect-mongo": "^2.0.3",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "express-ejs-layouts": "^2.5.1",
+    "express-session": "^1.17.2",
+    "mongodb": "^2.2.12",
+    "mongoose": "^5.13.17",
+    "morgan": "^1.9.1",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "twilio": "^4.11.1"
+  }
+}
